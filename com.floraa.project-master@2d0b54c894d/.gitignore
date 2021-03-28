@@ -1,0 +1,9 @@
+*.dll
+*.pdb
+obj/**
+bin/**
+runtimes/**
+.vs/
+/.vs/CoreBot/v16
+Properties/PublishProfiles/Srinifloraa.pubxml.user
+/.vs/com.floraa.project/v16/.suo

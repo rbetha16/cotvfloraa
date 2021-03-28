@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftps://waws-prod-dm1-035.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AdapterWithErrorHandler.cs">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/20/2019 12:10:02</publishTime>
+    </File>
+    <File Include="Bots/DialogAndWelcomeBot.cs">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="Bots/DialogBot.cs">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="Cards/welcomeCard.json">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="CognitiveModels/FlightBooking.json">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="ConfigurationCredentialProvider.cs">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="Controllers/BotController.cs">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="CoreBot.csproj">
+      <publishTime>06/21/2019 18:31:31</publishTime>
+    </File>
+    <File Include="CoreBot.deps.json">
+      <publishTime>07/02/2019 11:25:52</publishTime>
+    </File>
+    <File Include="CoreBot.dll">
+      <publishTime>07/02/2019 11:25:18</publishTime>
+    </File>
+    <File Include="CoreBot.pdb">
+      <publishTime>07/02/2019 11:25:18</publishTime>
+    </File>
+    <File Include="CoreBot.runtimeconfig.json">
+      <publishTime>07/02/2019 11:25:52</publishTime>
+    </File>
+    <File Include="DialogExtensions.cs">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="Dialogs/BookingDialog.cs">
+      <publishTime>06/21/2019 15:27:52</publishTime>
+    </File>
+    <File Include="Dialogs/CancelAndHelpDialog.cs">
+      <publishTime>06/20/2019 12:01:10</publishTime>
+    </File>
+    <File Include="Dialogs/DateResolverDialog.cs">
+      <publishTime>06/20/2019 14:29:11</publishTime>
+    </File>
+    <File Include="Dialogs/MainDialog.cs">
+      <publishTime>07/02/2019 11:19:12</publishTime>
+    </File>
+    <File Include="EntitiDetails.cs">
+      <publishTime>06/21/2019 14:36:56</publishTime>
+    </File>
+    <File Include="LuisHelper.cs">
+      <publishTime>06/21/2019 18:31:41</publishTime>
+    </File>
+    <File Include="Microsoft.Azure.CognitiveServices.Language.LUIS.dll">
+      <publishTime>02/06/2019 10:46:00</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.AI.Luis.dll">
+      <publishTime>05/22/2019 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.Dialogs.dll">
+      <publishTime>05/22/2019 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.dll">
+      <publishTime>05/22/2019 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Builder.Integration.AspNet.Core.dll">
+      <publishTime>05/22/2019 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Configuration.dll">
+      <publishTime>05/22/2019 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Connector.dll">
+      <publishTime>05/22/2019 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.Bot.Schema.dll">
+      <publishTime>05/22/2019 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <publishTime>01/11/2019 18:50:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>02/08/2018 22:16:40</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>02/08/2018 22:17:02</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>02/08/2018 22:17:16</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>02/08/2018 22:16:44</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Definitions.dll">
+      <publishTime>11/12/2018 08:59:38</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.Choice.dll">
+      <publishTime>11/12/2018 08:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.DataTypes.TimexExpression.dll">
+      <publishTime>02/01/2019 08:34:24</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.DateTime.dll">
+      <publishTime>11/12/2018 08:59:34</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.dll">
+      <publishTime>11/12/2018 08:59:38</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.Number.dll">
+      <publishTime>11/12/2018 08:59:36</publishTime>
+    </File>
+    <File Include="Microsoft.Recognizers.Text.NumberWithUnit.dll">
+      <publishTime>11/12/2018 08:59:36</publishTime>
+    </File>
+    <File Include="Microsoft.Rest.ClientRuntime.Azure.dll">
+      <publishTime>01/25/2019 00:02:58</publishTime>
+    </File>
+    <File Include="Microsoft.Rest.ClientRuntime.dll">
+      <publishTime>02/27/2019 20:49:20</publishTime>
+    </File>
+    <File Include="PostDeployScripts/githubProject.json.template">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/IncludeSources.targets">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/luisbot93.PublishSettings">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/mergeSettings.js">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/prepareSrc.cmd">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/publish.cmd.template">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/publishProfile.xml.template">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/publishSettings.xml.template">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/runGulp.cmd">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/setupGithubRemoteRepo.cmd">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/setupVsoRemoteRepo.cmd">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="PostDeployScripts/vsoProject.json.template">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="Program.cs">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="Startup.cs">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>02/08/2018 22:16:52</publishTime>
+    </File>
+    <File Include="System.Json.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/02/2019 11:25:52</publishTime>
+    </File>
+    <File Include="wwwroot/default.htm">
+      <publishTime>06/20/2019 12:01:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
